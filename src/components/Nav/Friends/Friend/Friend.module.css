@@ -1,0 +1,14 @@
+.ava {
+	height: 50px;
+	width: 50px;
+	border-radius: 50px;
+}
+.friend {
+	margin: 5px;
+	color: white;
+	cursor: pointer;
+	width: 50px;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+}

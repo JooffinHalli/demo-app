@@ -1,0 +1,8 @@
+.item a {
+	color: white;
+	margin: 5px 10px;
+	text-decoration: none;
+}
+.item a.active {
+	color: red;
+}

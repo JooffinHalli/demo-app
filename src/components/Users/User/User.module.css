@@ -1,0 +1,29 @@
+.userContainer {
+	border: 1px solid black;
+	margin: 5px;
+	padding: 5px;
+	display: grid;
+	grid-template-columns: 3fr 9fr;
+}
+.avaDiv {
+	padding: 5px;
+	text-align: center;
+}
+.ava {
+	width: 75px;
+	height: 75px;
+	border-radius: 50%;
+	cursor: pointer;
+}
+.info {
+	padding: 5px;
+	position: relative;
+}
+.status {
+	top: 25px;
+	position: absolute;
+}
+.location {
+	bottom: 10px;
+	position: absolute;
+}

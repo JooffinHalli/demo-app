@@ -1,0 +1,15 @@
+.usersContainer {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	border: 1px solid black;
+}
+.pagesCountDiv {
+	text-align: center;
+}
+.pagesCountDiv span {
+	margin-right: 3px;
+	cursor: pointer;
+}
+.selected {
+	color: red;
+}

@@ -1,0 +1,34 @@
+.pic {
+  width: 100%;
+}
+.ava {
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	cursor: pointer;
+}
+.x {
+	background: white;
+	border: 1px solid black;
+	cursor: default;
+}
+.status {
+	cursor: pointer;
+}
+a {
+	color: black;
+}
+.cont {
+	padding-left: 10px; 
+}
+.error input,
+.error textarea {
+	border: 1px solid red;
+}
+.error span {
+	color: red;
+	border: 1px solid red;
+}
+.contacts {
+	border: 1px solid black;
+}

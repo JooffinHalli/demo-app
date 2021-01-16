@@ -1,0 +1,19 @@
+body {
+  background: grey;
+}
+.appWrapper {
+  display: grid;
+  grid-template-areas: 
+  'h h'
+  'n c';
+  grid-template-rows: 80px 1fr;
+  grid-auto-columns: 2fr 10fr;
+  grid-gap: 10px;
+  width: 80%;
+  height: 100vh;
+  margin: 0 auto;
+}
+.appWrapperContent {
+  grid-area: c;
+  background: yellow;
+}
